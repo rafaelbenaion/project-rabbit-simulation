@@ -9,7 +9,7 @@ Université Clermont Auvergne
 Le présent rapport est un mémoire du dernier TP réalisé au cours de Projet Informatique Simulation, Licence Informatique en deuxième année à l'Université Clermont Auvergne. Le but du projet est d’appliquer les connaissances acquises pendant les cours magistraux et les séances pratiques. Nous implémentons ainsi une simulation de croissance de population de lapin plus fiable. En utilisant notamment un générateur pseudo aléatoire plus robuste, la technique de Monte Carlo et un calcul d’intervalle de confiance. Les choix de modélisation et représentation ont été exposés tout au long du document.
 
 
-**Chapitre 1**
+## **Chapitre 1**
 A fast simulation of a rabbit population growth
 
 **1.1 La modélisation**
@@ -26,7 +26,7 @@ L’implémentation a été faite en C, utilisant un tableau d’entiers pour st
 
 Au bout de 30 répétitions (30 mois) nous avons comme nombre total de la population 514.229 couples. La croissance suit bien sur la suite de Fibonacci. La modélisation est trop simpliste et ne prend pas en compte plusieurs facteurs. Nous poursuivons l’expérience dans le prochain chapitre, abordant d’une autre manière le problème avec une simulation plus complexe.
 
-**Chapitre 2**
+## **Chapitre 2**
 A more realistic population growth
 
 **2.1 La modélisation**
@@ -91,7 +91,7 @@ L’étape suivante, c'est de calculer l’écart de fiabilité. Nous avons ains
 
 Pour des raisons de performance, nous allons d’abord commencer avec des simulations de 12 mois pour les réplications. Nous constatons ainsi que plus on simule, plus on a besoin de répétitions pour arriver à un intervalle de confiance fiable. Ça pose notamment des limitations pour la capacité de calcul.
 
-**Conclusion**
+## **Conclusion**
 
 Le TP4 de Projet Informatique nous a permis d’appliquer les connaissances acquises pendant tout le parcours du cours jusqu’ici. C’est une façon de tester l'assimilation des techniques. Mais aussi de vérifier si nous étions capables de trouver des solutions différentes, avec les outils qui nous ont été fournis au préalable. L’implémentation d’une simulation plus réaliste nous semble être bien exécutée. Le choix du langage nous a facilité l’abstraction du code, et on a pu focaliser notre travail sur l’interaction des agents. Une chose est claire, n’importe combien la simulation peut être complexe, elle reste une simplification de la réalité. 
 
